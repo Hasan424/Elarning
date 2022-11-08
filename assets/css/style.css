@@ -273,7 +273,7 @@ ul li a {
     height: auto;
     object-fit: cover;
 }
-
+ 
 .img3:hover {
     transform: scale(1.2);
     transition: 1s;
@@ -414,6 +414,9 @@ h4 {
 .img-fluid:hover {
     transform: scale(1.1);
 }
+.d-flex i{
+    font-size: 12px;
+  }
 
 @media only screen and (max-width: 768px) {
     .ul {

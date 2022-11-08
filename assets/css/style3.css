@@ -314,7 +314,9 @@ h4 {
   border-right: 1px solid gray;
   padding: 0 8px;
 }
-
+.d-flex i{
+  font-size: 12px;
+}
 
 @media only screen and (max-width: 768px) {
   .ul {

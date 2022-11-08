@@ -1,0 +1,188 @@
+.main {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+    display: none;
+  }
+  
+  .ul li a {
+    text-decoration: none;
+  }
+  
+  .a1:hover {
+    color: #06BBCC;
+  }
+  
+  .header {
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+    background-color: #fff;
+  }
+  
+  .navbar ul li {
+    display: inline;
+  }
+  
+  .logo a i,
+  .pages {
+    color: #06BBCC;
+  }
+  
+  .span1 {
+    margin-left: -12px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #06BBCC;
+  }
+  
+  .arrow {
+    margin-left: 10px;
+  }
+  
+  .ul li {
+    margin: 0 13px;
+    display: inline;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .join {
+    position: relative;
+    margin-right: -36px;
+    margin-top: -16px;
+    margin-bottom: -17px;
+    padding: 30px;
+    color: #fff;
+    border: 0;
+  }
+  
+  .nav ul {
+    margin: 0;
+  }
+  
+  ul li a {
+    color: #686464;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+.image {
+    background-image: url(../image/img2.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: 0 0 0 0.5;
+}
+
+.container {
+    width: 550px;
+    padding: 80px 0;
+}
+
+.layer {
+    padding: 80px 0;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.h1 {
+    color: cornsilk;
+    text-align: center;
+}
+
+.form-check {
+    color: cornsilk;
+    margin-top: 20px;
+}
+
+.input-group input {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: cornsilk;
+    border: #000;
+    border-radius: 0;
+}
+
+.input-group input:focus {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: cornsilk;
+}
+
+.input-group-text {
+    background-color: cornsilk !important;
+}
+
+.col-auto button {
+    background-color: black;
+    color: cornsilk;
+    border-radius: 0;
+    border: #000;
+    margin-top: 20px;
+}
+a:-webkit-any-link {
+    text-decoration: none;
+}
+.icons a i{
+  font-size: 12px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .ul {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .join,
+    .ul li {
+        display: none;
+    }
+
+    .logo {
+        display: flex;
+    }
+
+    .book2 {
+        margin-top: 10px;
+    }
+
+    .main-header {
+        display: flex;
+        padding: 20px;
+    }
+    .join-now{
+        font-size: 30px;
+    }
+}

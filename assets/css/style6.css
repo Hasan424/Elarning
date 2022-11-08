@@ -204,7 +204,9 @@ h4 {
 .padding2{
   padding-top: 60px;
 }
-
+.d-flex i{
+  font-size: 12px;
+}
 @media only screen and (max-width: 768px) {
   .ul {
     width: 100%;
